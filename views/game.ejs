@@ -1,0 +1,41 @@
+<% include header %>
+ 
+<head><title>Flames</title></head>
+
+<body id="gameBody">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./game.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="Contact.css">
+   <!-- A BootStrap container is used to adjust the layout of the contents based on screen size. .container uses pre-built screen sizes, while .container-fluid adjusts continously.-->
+
+<header>
+ <h1>FLAMES</h1>
+</header>
+<form name="Flames" align="center">
+ <label>First Person Name<br></label> 
+ <input type="text" name="firstName" id="firstName" /><br><br>
+ <label>Second Person Name:<br></label>
+ <input type="text" name="secondName" id="secondName"/><br><br>
+ <label>BackGround</label>
+ <select name="BackGround" id="background" onchange=changeBackground(this)>
+     <option value="white">white</option>
+     <option value="blue">blue</option>
+     <option value="red">red</option>
+     <option value="green">green</option><br>
+ </select><br><br>
+ <button onclick="CallFunction()">Submit</button>
+</form><br><br><br><br>
+<footer>
+  Enjoy the relationship. Afterall Its just a game ;).
+</footer>
+<script src="public/js/game.js" defer></script>
+
+</body>
+  <% include footer %>

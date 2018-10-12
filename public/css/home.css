@@ -1,0 +1,96 @@
+body {
+  background-image: url("scene.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: crimson;
+}
+footer {
+  margin: 60px;
+}
+
+table, th, td{
+  font-size-adjust: inherit;
+  color: blueviolet;
+
+
+}
+
+#nwmsportal{
+
+  font-size: 2em;
+  color: brown
+  
+}
+
+.displayExploreButtons {
+  display: none;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.displayText {
+  display: none;
+}
+
+body {
+  background-color: pink;
+  }
+ h1 {
+     color: lightgreen;
+     text-align: center;
+ }
+       table, th, td {
+       border: 2px solid blue;
+     border-collapse: collapse;
+     }
+ .sectionheader{
+   font-family:georgia;
+   font-size:30px;
+   text-align:center;
+   
+   
+   
+ }
+ .abhi{
+   border: 1px;
+   border-color:#dddddd;
+   background-color:lightblue;
+ }
+ #header{
+   background-color:red;
+   font-family:verdana;
+   font-size:50%;
+   
+ }
+ #footer{
+   
+   border:100px;
+   border-color:#dddddd;
+   text-align:center;
+   font-family:arial;
+   
+ }
+ #pastsection{
+   text-align: center;
+   color: violet;
+   transform: skew(-20deg);
+   
+   
+ }
+ 
+ 
+ #futuresection{
+     text-align: left;
+   text-decoration: overline;
+   color:blue;
+ }
+ 
+ .asideheader{
+   
+   text-align:center;
+   font-family:verdana;
+   color:brown;
+   
+ }
